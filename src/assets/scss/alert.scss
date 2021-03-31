@@ -1,0 +1,66 @@
+/*
+ * @Author       : 邱狮杰
+ * @Date         : 2021-03-31 17:51:15
+ * @LastEditTime : 2021-03-31 17:51:52
+ * @FilePath     : /viteuploadtmp/src/assets/scss/alert.scss
+ * @Description  :
+ */
+.alert {
+  min-width: 20.75rem;
+  max-width: 20.75rem;
+  min-height: 8rem;
+  box-shadow: 0 5px 10px #f2f2f2;
+  // background-color: yellow;
+  border-radius: 0.3125rem;
+  border: 1px solid #f2f2f2;
+  .operaction {
+    width: 100%;
+
+    button {
+      min-width: 80px;
+      min-height: 30px;
+      cursor: pointer;
+      outline: none;
+      border: none;
+      border-radius: 0.3125rem;
+    }
+    .blue {
+      color: white;
+      background-color: #3296fa;
+    }
+    .default {
+      color: black;
+      background-color: #f7f8fa;
+    }
+  }
+}
+
+.removeAlert {
+  position: absolute;
+  bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  color: black;
+  .content {
+    padding: {
+      top: 0.625rem;
+    }
+    flex: 1;
+    h4 {
+      margin: {
+        bottom: 0.625rem;
+      }
+    }
+    span {
+      color: #999;
+      font-size: 0.875rem;
+    }
+  }
+
+  .operaction {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+}

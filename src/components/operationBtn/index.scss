@@ -1,0 +1,34 @@
+.operationBtn {
+  width: 100%;
+  min-height: 5.875rem;
+  // background-color: black;
+  border-top: 1px dashed #f1f1f1;
+  position: relative;
+  .load {
+    right: 1.25rem;
+    &:hover {
+      color: skyblue;
+      border: 1px solid #b4d9fb;
+      background-color: white;
+    }
+  }
+  .close {
+    right: 9.25rem;
+    &:hover {
+      border: 1px solid #c2e7b0;
+      background: white;
+      color: #67c23a;
+    }
+  }
+  button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    min-height: 2.85rem;
+    min-width: 5.35rem;
+    border-radius: 0.3125rem;
+    outline: none;
+    border: none;
+  }
+}

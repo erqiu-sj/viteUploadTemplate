@@ -1,0 +1,22 @@
+.top {
+  width: 100%;
+  min-height: 2.875rem;
+  line-height: 2.875rem;
+  text-align: center;
+  // background-color: black;
+  .centerOperation {
+    span {
+      cursor: pointer;
+      text-align: center;
+      display: inline-block;
+      min-width: 80px;
+      color: black;
+      &:hover {
+        color: skyblue;
+      }
+    }
+    .barAction {
+      color: skyblue;
+    }
+  }
+}

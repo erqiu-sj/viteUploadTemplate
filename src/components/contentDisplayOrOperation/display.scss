@@ -1,0 +1,19 @@
+.display {
+  flex: 1;
+  background-color: rgb(245, 246, 249);
+  .display_item {
+    min-height: 3.5rem;
+    text-align: left;
+    padding: {
+      left: 1.525rem;
+    }
+    line-height: 3.5rem;
+    color: black;
+    background: rgb(245, 246, 249);
+    border-bottom: 1px solid #f1f1f1;
+    cursor: pointer;
+  }
+  .displayAction {
+    background-color: rgb(238, 239, 244);
+  }
+}
